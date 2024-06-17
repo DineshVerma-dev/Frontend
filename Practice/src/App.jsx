@@ -5,6 +5,7 @@ import './App.css'
 import First from './Components/First'
 import Second from './Components/Second'
 import Third from './Components/Third'
+import Four from './Components/Four'
 
 function App() {
   const [input, setInput] = useState("dinesh")
@@ -23,6 +24,7 @@ function App() {
       <First />
       <Second/>
       <Third/>
+      <Four/>
     </>
   )
 }
