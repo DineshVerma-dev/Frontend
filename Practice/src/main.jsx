@@ -14,6 +14,7 @@ import Four from './Components/Four.jsx'
 import Five from './Components/Five.jsx'
 import Six from './Components/Six.jsx'
 import Seven from './Components/Seven.jsx'
+import Eight from './Components/Eight.jsx'
 
 
 const router = createBrowserRouter(
@@ -30,6 +31,7 @@ const router = createBrowserRouter(
 
       <Route path='/six' element={<Six/>} />
       <Route path='/seven' element={<Seven/>} />
+      <Route path='/eight' element={<Eight/>} />
     </Route>
     
   )

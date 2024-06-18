@@ -38,106 +38,117 @@ export default function Header() {
                                 <NavLink to='/'
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-gray-800"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-gray-800"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     Home
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink  to="/about"
+                                <NavLink to="/about"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                  About
+                                    About
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink  to="/contact"
+                                <NavLink to="/contact"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                  Contact
+                                    Contact
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink  to="/first"
+                                <NavLink to="/first"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                  First
+                                    First
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink  to="/second"
+                                <NavLink to="/second"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                  Second
+                                    Second
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink  to="/third"
+                                <NavLink to="/third"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                  Third
+                                    Third
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink  to="/four"
+                                <NavLink to="/four"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                  Four
+                                    Four
                                 </NavLink>
                             </li>
 
                             <li>
-                                <NavLink  to="/five"
+                                <NavLink to="/five"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                Five
+                                    Five
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink  to="/six"
+                                <NavLink to="/six"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                 Six
+                                    Six
                                 </NavLink>
                             </li>
 
                             <li>
-                                <NavLink  to="/seven"
+                                <NavLink to="/seven"
                                     className={(isActive) =>
                                         `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${isActive? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                 Seven
+                                    Seven
                                 </NavLink>
                             </li>
-                            
-                           
+
+                            <li>
+                                <NavLink to="/eight"
+                                    className={(isActive) =>
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Eight
+                                </NavLink>
+                            </li>
+
+
 
 
                         </ul>
