@@ -16,7 +16,7 @@ function Five() {
         settodos(updatetodo)
     }
     return (
-        <div>
+        <div className='flex justify-center align-middle m-10'>
             <input
                 type='text' onChange={(e) => setInput(e.target.value)}
             />

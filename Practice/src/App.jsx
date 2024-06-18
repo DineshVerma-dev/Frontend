@@ -7,26 +7,31 @@ import Second from './Components/Second'
 import Third from './Components/Third'
 import Four from './Components/Four'
 import Five from './Components/Five'
+import Six from "./Components/Six"
+import Seven from './Components/Seven'
+
 
 function App() {
   const [input, setInput] = useState("dinesh")
 
   return (
     <>
-      <h1> This is React Learning project</h1>
+      {/* <h1> This is React Learning project</h1>
       <input
         value={input}
         type='text'
         onChange={(e) => { setInput(e.target.value) }}
         placeholder='text'
       />
-      The text is : {input}
-
+      The text is : {input} */}
+{/* 
       <First />
-      <Second/>
-      <Third/>
-      <Four/>
-      <Five/>
+      <Second />
+      <Third />
+      <Four />
+      <Five />
+      <Six /> */}
+      {/* <Seven/> */}
     </>
   )
 }

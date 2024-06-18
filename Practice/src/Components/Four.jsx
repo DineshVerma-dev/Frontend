@@ -9,7 +9,7 @@ function Four() {
     };
 
     return (
-        <div>
+        <div className='flex justify-center align-middle m-10'>
             <h1>ToDo functionality</h1>
             <input
                 type='text'

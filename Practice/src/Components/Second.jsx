@@ -16,19 +16,23 @@ function Second() {
     }, [])
 
     return (
-        <div> {
+        <div className='flex justify-center align-middle m-10'>
+            <div> {
 
-            data ? (<div>
-                <h1>Title : {data.title}</h1>
-                <h2>UserId : {data.id}</h2>
+                data ? (<div>
+                    <h1>Title : {data.title}</h1>
+                    <h2>UserId : {data.id}</h2>
 
-            </div>) : (<p>loading...</p>)
+                </div>) : (<p>loading...</p>)
 
 
-        }
+            }
+            </div>
         </div>
-
     );
+
+
 }
+
 
 export default Second

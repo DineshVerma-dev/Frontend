@@ -14,7 +14,7 @@ function Third() {
         setIsrunning(true)
     }
     return (
-        <div>
+        <div className='flex justify-center align-middle m-10'>
             Time Left  :    {Time}
             <button onClick={handler}>clickMe</button>
         </div>
