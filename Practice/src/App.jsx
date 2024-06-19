@@ -9,10 +9,13 @@ import Four from './Components/Four'
 import Five from './Components/Five'
 import Six from "./Components/Six"
 import Seven from './Components/Seven'
+import Eight from './Components/Eight'
+import Nine from './Components/Nine'
 
 
 function App() {
   const [input, setInput] = useState("dinesh")
+  const items = ['item 1', 'item2', 'item3', 'another items1', 'another item2']
 
   return (
     <>
@@ -24,7 +27,7 @@ function App() {
         placeholder='text'
       />
       The text is : {input} */}
-{/* 
+      {/* 
       <First />
       <Second />
       <Third />
@@ -32,6 +35,8 @@ function App() {
       <Five />
       <Six /> */}
       {/* <Seven/> */}
+      {/* <Nine /> */}
+      <Ten item={items}/>
     </>
   )
 }
