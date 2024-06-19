@@ -1,0 +1,71 @@
+.navigation-container {
+  position: relative;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background: transparent;
+}
+
+/* Hide menu on small screens by default */
+.menu {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Show menu when open */
+.menu.open {
+  display: block;
+}
+
+.menu li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for menu items */
+.menu li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show the menu icon only on small screens */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu.open {
+    display: block;
+  }
+}
+
+/* Hide the menu icon and show menu on larger screens */
+@media (min-width: 769px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    display: flex; /* Display menu items horizontally */
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .menu li {
+    border: none;
+    padding: 10px 20px;
+  }
+
+  .menu.open {
+    display: flex; /* Ensure the menu stays open in flex layout */
+  }
+}
