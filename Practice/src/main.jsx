@@ -17,6 +17,8 @@ import Seven from './Components/Seven.jsx'
 import Eight from './Components/Eight.jsx'
 import Nine from './Components/Nine.jsx'
 import Ten from './Components/Ten.jsx'
+import ElevenColorPicker from './Components/ElevenColorPicker.jsx'
+import TwelvePagination from './Components/TwelvePagination.jsx'
 
 
 const router = createBrowserRouter(
@@ -35,7 +37,9 @@ const router = createBrowserRouter(
       <Route path='/seven' element={<Seven />} />
       <Route path='/eight' element={<Eight />} />
       <Route path='/nine' element={<Nine />} />
-      <Route path='/ten' element={<Ten/>}/>
+      <Route path='/ten' element={<Ten />} />
+      <Route path='/eleven' element={<ElevenColorPicker />} />
+      <Route path='/twelve' element={< TwelvePagination/>}/>
     </Route>
 
   )

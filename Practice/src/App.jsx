@@ -15,7 +15,7 @@ import Nine from './Components/Nine'
 
 function App() {
   const [input, setInput] = useState("dinesh")
-  const items = ['item 1', 'item2', 'item3', 'another items1', 'another item2']
+  const items = ['item1', 'item2', 'item3', 'anotheritems1', 'anotheritem2']
 
   return (
     <>
@@ -36,7 +36,7 @@ function App() {
       <Six /> */}
       {/* <Seven/> */}
       {/* <Nine /> */}
-      <Ten item={items}/>
+      <Ten items={items}/>
     </>
   )
 }

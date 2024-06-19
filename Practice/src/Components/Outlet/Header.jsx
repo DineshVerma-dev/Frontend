@@ -167,6 +167,26 @@ export default function Header() {
                                    Ten
                                 </NavLink>
                             </li>
+                            <li>
+                                <NavLink to="/eleven"
+                                    className={(isActive) =>
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                   eleven
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/twelve"
+                                    className={(isActive) =>
+                                        `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
+                                        ${isActive ? "text-orange-700" : "text-black"} hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                   twelve
+                                </NavLink>
+                            </li>
 
 
 
