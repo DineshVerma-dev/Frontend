@@ -2,7 +2,7 @@ import React from 'react'
 
 function ElevenColorPicker() {
   return (
-    <div>
+    <div className='flex justify-center align-middle m-10'>
       color
     </div>
   )

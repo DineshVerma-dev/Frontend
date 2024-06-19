@@ -11,6 +11,7 @@ import Six from "./Components/Six"
 import Seven from './Components/Seven'
 import Eight from './Components/Eight'
 import Nine from './Components/Nine'
+import TwelvePagination from './Components/TwelvePagination'
 
 
 function App() {
@@ -36,7 +37,8 @@ function App() {
       <Six /> */}
       {/* <Seven/> */}
       {/* <Nine /> */}
-      <Ten items={items}/>
+      {/* <Ten items={items} itemPerPage={2}/> */}
+      <TwelvePagination items={items} itemPerPage={2}/>
     </>
   )
 }
