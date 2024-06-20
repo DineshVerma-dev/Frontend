@@ -4,7 +4,7 @@ import './NavMenu/NavigationMenu.css';
 function NavigationMenu() {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
+    const toggleMenu = () =>  {
         setIsOpen(!isOpen);
     };
 
