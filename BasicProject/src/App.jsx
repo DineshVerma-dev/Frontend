@@ -3,6 +3,7 @@ import Pagination from './Projects/Pagination';
 import ColorPicker from './Projects/ColorPicker';
 import NavigationMenu from './Projects/NavigationMenu';
 import './App.css'
+import PagesReducer from './Projects/PagesReducer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       {/* <Pagination items={items} itemsPerPage={2} />
         <ColorPicker/> */}
       {/* <NavigationMenu/> */}
+      <PagesReducer/>
 
     </>
   )
