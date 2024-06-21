@@ -9,6 +9,9 @@ import { AuthProvider } from './Projects/AuthContext';
 import Drag from './Projects/Drag';
 import Translation from './Projects/Translation'
 import { LocalizationProvider } from './Projects/LoaclizationContext';
+import Fetch from './Projects/Fetch';
+import Image from './Projects/Image'
+
 
 function App() {
   const items = ['item1', 'item2', 'item3', ' item4', 'Another item1', 'Another item2'];
@@ -23,11 +26,16 @@ function App() {
       {/* <NavigationMenu/> */}
       {/* <PagesReducer/> */}
       {/* <Drag/> */}
-      <LocalizationProvider>
+      {/* <LocalizationProvider>
         <Translation/>
-      </LocalizationProvider>
-      
-      
+      </LocalizationProvider> */}
+
+      {/* <Fetch /> */}
+      <Image/>
+
+
+
+
 
     </>
   )
