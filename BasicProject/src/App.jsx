@@ -4,6 +4,8 @@ import ColorPicker from './Projects/ColorPicker';
 import NavigationMenu from './Projects/NavigationMenu';
 import './App.css'
 import PagesReducer from './Projects/PagesReducer';
+import Auth from './Projects/Auth';
+import { AuthProvider } from './Projects/AuthContext';
 
 
 function App() {
@@ -18,7 +20,10 @@ function App() {
         <ColorPicker/> */}
       {/* <NavigationMenu/> */}
       {/* <PagesReducer/> */}
-      <Auth />
+      <AuthProvider>
+        <Auth />
+      </AuthProvider>
+      
 
     </>
   )
