@@ -17,7 +17,8 @@ function App() {
       {/* <Pagination items={items} itemsPerPage={2} />
         <ColorPicker/> */}
       {/* <NavigationMenu/> */}
-      <PagesReducer/>
+      {/* <PagesReducer/> */}
+      <Auth />
 
     </>
   )
